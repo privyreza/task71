@@ -37,15 +37,16 @@ main {
 
 .cars {
     padding: 20px;
-    height: 300px;
 }
 
 .text {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .car1 {
     background: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
 }
 
 .car2 {
@@ -58,6 +59,8 @@ main {
 
 .car3 {
     background: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 .car3 button {
@@ -66,6 +69,8 @@ main {
 
 h2 {
     color: hsl(0, 0%, 95%);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 button:hover {
