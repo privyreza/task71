@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,39 +13,66 @@
             box-sizing: border-box;
         }
 
-        body {
-
-        }
+        body {}
 
         main {
+            margin: 50px auto;
+            width: 75%;
             display: grid;
+            grid-template-areas: 
+            'one one two'
+            'three four four'
+            'three five five';
+            background-color: #1A1C28;
         }
 
+        .one {
+            background-color: #EB5020;
+            grid-area: one;
+        }
 
+        .two {
+            background-color: #FFA401;
+            grid-area: two;
+        }
+
+        .three {
+            background-color: #04983B;
+            grid-area: three;
+        }
+
+        .four {
+            background-color: #01AEFD;
+            grid-area: four;
+        }
+
+        .five {
+            background-color: #00AEFB;
+            grid-area: five;
+        }
+
+        main div {
+            padding: 100px;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
     <main>
-        <div>
-            <div>
+        <div class="one">
 
-            </div>
-            <div>
-
-            </div>
         </div>
-        <div>
-            <div>
+        <div class="two">
 
-            </div>
-            <div>
-                <div>
+        </div>
+        <div class="three">
 
-                </div>
-                <div>
-                    
-                </div>
-            </div>
+        </div>
+        <div class="four">
+
+        </div>
+        <div class="five">
+
         </div>
     </main>
 </body>
